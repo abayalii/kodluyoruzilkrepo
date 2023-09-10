@@ -10,7 +10,7 @@ Average case: Aradığımız sayının ortada olması
 Worst case: Aradığımız sayının sonda olması
 Best case: Aradığımız sayının dizinin en başında olması.
 
-Answer==> [22,27,16,2,18,6] -> [2,27,16,22,18,6] -> [2,6,16,22,18,27] -> [2,6,16,18,22,27] 
+Answer==> [22,27,16,2,18,6] -> [16,22,27,2,18,6] -> [2,16,22,27,18,6] -> [2,16,18,22,27,6] -> [2,6,16,18,22,27] 
           O(n²) 
-          worst case
+          average case
           
